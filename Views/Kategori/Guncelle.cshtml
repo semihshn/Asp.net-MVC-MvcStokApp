@@ -1,0 +1,21 @@
+﻿@model MvcStok.Models.Entity.TBLKATEGORİLER
+@{
+    ViewBag.Title = "Guncelle";
+    Layout = "~/Views/Shared/_MainLayout.cshtml";
+}
+
+@using (Html.BeginForm("Guncelle", "Kategori", FormMethod.Post))
+{
+    <div class="form-group">
+        @Html.LabelFor(m => m.KATEGORİD)
+        @Html.TextBoxFor(x => x.KATEGORİD, new { @class = "form-control" })
+        <br />
+        @Html.LabelFor(m => m.KATEGORİAD)
+        @Html.TextBoxFor(x => x.KATEGORİAD, new { @class = "form-control" })
+        @Html.ValidationMessageFor(m => m.KATEGORİAD, "", new { @style="color:gray"})
+    </div>
+    <div>
+        <button class="btn btn-warning">Güncelle</button>
+    </div>
+}
+
