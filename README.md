@@ -10,10 +10,10 @@ Bu projede Asp.net MVC mimarisini kullanarak bir mağazaya ait Kategoriler , Mü
 nasıl yapılır bunları gördük , mimariyi uygulayarak öğrendik
 
 ### Kullanılanlar
--ASP.net MVC
--EntityFramework
--C#
--SQL
--HTML
--CSS
--JS
+- ASP.net MVC
+- EntityFramework
+- C#
+- SQL
+- HTML
+- CSS
+- JS
